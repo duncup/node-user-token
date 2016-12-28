@@ -1,0 +1,29 @@
+{
+  "name": "user-token",
+  "version": "0.0.1",
+  "description": "User token string maker.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "apm test",
+    "lint": "eslint .",
+    "compile": "ucompiler go",
+    "watch": "ucompiler watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duncup/node-user-token.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duncup/node-user-token/issues"
+  },
+  "homepage": "https://github.com/duncup/node-user-token#readme",
+  "devDependencies": {
+    "babel-preset-steelbrain": "^4.0.0",
+    "eslint-config-steelbrain": "^1.0.1",
+    "sb-exec": "^3.0.2",
+    "ucompiler": "^3.1.8",
+    "ucompiler-plugin-babel": "^3.1.1"
+  }
+}
