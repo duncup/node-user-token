@@ -1,6 +1,6 @@
 {
   "name": "user-token",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "User token string maker.",
   "main": "lib/index.js",
   "scripts": {
