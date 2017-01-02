@@ -6,7 +6,7 @@ This package is a token maker.
 ### Demo
 ```js
 const Token = require('../');
-const token = new Token('nS');
+const token = new Token('nlu');
 console.log(token.round(16));
 ```
 
