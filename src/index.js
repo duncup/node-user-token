@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 class Token {
   constructor(pattern) {
@@ -6,9 +6,9 @@ class Token {
   }
   round(length, pattern) {
     // ns nS nsS
-    length = length || 32
-    pattern = pattern || this.pattern || 'nlu'
-    let str = ''
+    length = length || 32;
+    pattern = pattern || this.pattern || 'nlu';
+    let str = '';
     for (let i = 0, len = pattern.length; i < len; i++) {
       switch (pattern[i]) {
         case 'n':
@@ -24,7 +24,7 @@ class Token {
           throw new Error('Token pattern wrang.');
       }
     }
-    let res = ''
+    let res = '';
     for (let i = 0; i < length; i++) {
       res += str.charAt((Math.floor(Math.random() * str.length)));
     }
@@ -32,4 +32,5 @@ class Token {
   }
 }
 
-module.exports = Token
+//noinspection JSUnresolvedVariable
+module.exports = Token;
